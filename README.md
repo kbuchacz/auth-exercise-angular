@@ -64,8 +64,7 @@ No return value
 
 ## Setup
 
-You should have installed `npm, bower, grunt and grunt-cli` packages to run this example.
-First, run sequentially:
+#### To install dependencies 
 
 ```
 npm install
@@ -74,11 +73,18 @@ npm install
 bower install
 ```
 
-To run the application, type:
+#### Jshint
+To run verify jshint:
+    
+    grunt jshint:default
 
-```
-grunt serve
-```
+#### Run tests
 
-It will run application in your default system browser.
+To unit tests in development mode:
+    
+    grunt test:dev
+    
 
+To run verify jshint, tests and coverage:
+
+    npm test
