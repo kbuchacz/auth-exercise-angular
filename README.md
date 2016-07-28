@@ -70,10 +70,6 @@ npm install
 ```
 bower install
 ```
-
-### To start application in live reload mode
-
-    grunt serve
     
 ### Jshint
 To run verify jshint:
